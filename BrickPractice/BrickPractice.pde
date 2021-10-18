@@ -5,9 +5,9 @@ void setup()
 }
 void draw()
 {
-  for(int x = 0; x < width; x += 55)
+  for(int y = 0; y < height; y += 15)
   {
-    for(int y = 0; y < height; y += 15)
+    for(int x = 0; x < width + 50; x += 55)
     {
       Brick bob = new Brick(x,y);
       bob.show();
